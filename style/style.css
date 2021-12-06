@@ -133,14 +133,14 @@ input[type="text"] {
   position: absolute;
   width: 60px;
   height: 60px;
-  background: #E34856;
+  background: #e34856;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius:50%;
+  border-radius: 50%;
   z-index: 10000;
   cursor: pointer;
-  border-radius: 0,3px,4px rgba(0,0,00.15);
+  border-radius: 0, 3px, 4px rgba(0, 0, 00.15);
   font-size: 3em;
   transition: transform 1.25s;
 }
@@ -154,31 +154,31 @@ input[type="text"] {
   left: -20px;
   transform-origin: 100px;
   transition: 0.5s;
-  transition-delay: calc(0.2s*var(--i));
+  transition-delay: calc(0.2s * var(--i));
   transform: rotate(0deg) translateX(60px);
 }
 
-.absolute_img li a{
-    margin-left: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    font-size: 1.5em;
-    background: red;
-    margin-right:30px;
-    border-radius: 50%;
+.absolute_img li a {
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  font-size: 1.5em;
+  background: red;
+  margin-right: 30px;
+  border-radius: 50%;
   transform: rotate(calc(360deg / 5 * var(--i)));
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
   color: #111;
   transition: 0.5s;
 }
-.absolute_img li a:hover{
-    color: #ff1252;
+.absolute_img li a:hover {
+  color: #ff1252;
 }
-.absolute_img.active li{
-  transform: rotate(calc(360deg /5 * var(--i)));
+.absolute_img.active li {
+  transform: rotate(calc(360deg / 5 * var(--i)));
 }
 
 #about {
